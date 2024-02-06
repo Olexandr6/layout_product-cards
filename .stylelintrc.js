@@ -3,5 +3,7 @@ module.exports = {
   plugins: [
     "stylelint-scss"
   ],
-  rules: {}
+  rules: {
+    "scss/dollar-variable-pattern": null,
+  }
 };

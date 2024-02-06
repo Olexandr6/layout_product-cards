@@ -1,3 +1,16 @@
-body {
+@import 'variables';
+@import 'blocks/card';
+@import 'blocks/stars';
+
+html {
+  color: $mainTextColor;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+body, h1, p {
   margin: 0;
 }
